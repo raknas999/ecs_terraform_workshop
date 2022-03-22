@@ -45,3 +45,6 @@ In file `iam.tf` we create roles, which will help us to associate EC2 instances 
 
 In file `alb.tf` we create Application Load Balancer with target groups, security group and listener. 
 
+**Troubleshooting:**
+While pushing images to ECR, if it thows error upgrade AWS cli version using "pip install --upgrade awscli"
+If any access denied issues, make sure proper region is pointed
