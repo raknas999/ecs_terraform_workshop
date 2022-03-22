@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 
-#terraform {
+##terraform {
 #  backend "s3" {
 #    bucket = "ecsworkshopbucket"
 #    key    = "state/terraform.tfstate"
