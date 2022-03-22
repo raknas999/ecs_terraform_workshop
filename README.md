@@ -47,4 +47,5 @@ In file `alb.tf` we create Application Load Balancer with target groups, securit
 
 **Troubleshooting:**
 While pushing images to ECR, if it thows error upgrade AWS cli version using "pip install --upgrade awscli"
+
 If any access denied issues, make sure proper region is pointed
